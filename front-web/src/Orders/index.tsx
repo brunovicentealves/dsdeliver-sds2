@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import {  toast } from 'react-toastify';
-import { isConstructorDeclaration } from 'typescript';
 import { fetchProducts, saveOrder } from '../api';
 import ProductsList from './ProductsList';
 import StepsHeaders from './StepsHeaders';
@@ -9,7 +8,6 @@ import { OrderLocatioData, Product } from './types';
 import OrderLocation from './OrderLocation';
 import OrderSummary from '../OrderSummary';
 import Footer from '../Footer';
-import { checkIsSelected, formatPrice } from '../helpers';
 
 
 function Orders() {
