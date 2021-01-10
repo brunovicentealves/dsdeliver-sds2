@@ -3,6 +3,7 @@ import{ReactComponent as MainImage} from './main.svg'
 import Footer from '../Footer';
 
 
+
 function Home(){
     return(
         <>
@@ -16,7 +17,7 @@ function Home(){
                         Escolha seu pedido e em poucos minutos <br/>
                         levaremos a sua porta 
                     </h3>
-                    <a href="orders" className="home-btn-order">
+                    <a href="/orders" className="home-btn-order">
                         FAZER PEDIDO
                     </a>
 
