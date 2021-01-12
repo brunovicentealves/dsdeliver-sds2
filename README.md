@@ -6,7 +6,7 @@
 ### Tecnologias Usadas no Projeto :
 #### -> Backend : Java, SpringBoot, ApiRest, PostgreSql, H2, Hibernate, Heroku
 
-### Deploy do Backend:
+## Deploy do Backend:
 [http://bruno-sddelivery.herokuapp.com]
 
 ## -> Front End : React , Html , Css , typeScript
