@@ -1,15 +1,20 @@
-import { homedir } from 'os';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
-import Counter from './Counter';
 import Navbar from './Navbar';
-import Home from './Home';
+import Routes from './Routes';
+
+
 
 function App() {
   return (
-    <div>
-    <Navbar/>
-    <Home/>
-    </div>
+    <>
+      <Navbar />
+      <Routes />
+      <ToastContainer/>
+    </>
+
+
   );
 }
 
